@@ -32,4 +32,8 @@ At times interesting relationships and additional data transformations are disco
 
 ### [Model](model.ipynb)
 
-### Report
+Informed by our exporative data analysis, we embark on the model-building journey. We perform various data transformation and exclusions to optimize a linear regression model. This model uses variables from the dataset to predict hemoglobin A1c (`glyhb`). Once the model is refined and validated, we analyze its performance (especially compared to a null model where our prediction is the mean). We utilize the model to predict two fictitious individuals, as well as construct a classification model using the linear regression model. We calculate model accuracy by determining the percentage of accurate diagnosis of all the individuals in the dataset based on the model prediction.
+
+### [Report](report.md)
+
+Lastly, we summarize and reflect on the findings of the process. This includes conclusions we found during our data exploration, as well as data modeling. Results pertaining to the overall objective of the question being asked are also discussed.
